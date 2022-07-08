@@ -60,6 +60,7 @@
   function setel(){audio.play();} function setel2(){bgm.play();} function sjawab(){if(ftom==1){Tombol.style="display:none";jawab();}}
   
   var aa=0,katangetik;function ngetik() {if(aa<katangetik.length){kalimat.innerHTML += katangetik.charAt(aa);aa++;setTimeout(ngetik,80);} if(aa==katangetik.length){kalimatc.style="margin-top:30px;margin-bottom:10px";setTimeout(ngetik2,500)}}
+  var ai=0,katangetik2;function ngetik2() {if(ai<katangetik2.length){kalimatc.innerHTML += katangetik2.charAt(ai);ai++;setTimeout(ngetik2,150);} if(ai==katangetik2.length){setTimeout(tombol,300)}}
 </script> <!-- Sampai Sini -->
 
 <!-- Ganti Kata², Foto, Lagu di bawah ya
@@ -83,7 +84,7 @@
                   });   	
                  await swalst.fire({
                   title: 'Semangat Jalani Harinya yaa 🤩',
-                  imageUrl: 'https://i.postimg.cc/vZJ2pyt3/peach-goma.gif',
+                  imageUrl: 'https://kamu.feeldream.repl.co/g5.gif',
                   });
                  await swalst.fire({
                   title: 'Jaga Kesehatan Lala 😍',
@@ -94,9 +95,10 @@
                   imageUrl: 'https://i.ibb.co/hBJWz6S/tinju.gif',
                   });
                   
-                  katangetik = "Makasih udah mau bukain yaaaa ><";
+                  katangetik = "Makasih udah mau bukain ><";
                   
-                  pesanwhatsapp = "Aaaaa baper ><";
+                  pesanwhatsapp = "Aaaaa Makasih ><";
+	          katangetik2 = "Semangat Terus yaa 🥰";
                  setTimeout(kpemb,300);
             }
 </script>
